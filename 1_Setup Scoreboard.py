@@ -52,7 +52,10 @@ COMP_NAME = "PickleballScoreboard"
 # that JSON by hand too if you'd rather; "image_files" lets you rename the
 # four PNGs without touching this script.
 # ---------------------------------------------------------------------------
-DEFAULT_IMAGE_DIR = r"D:\Pickleball\Materials"
+# Blank on a fresh install, so the setup dialog opens with an empty field
+# and prompts you to Browse. Once you pick a folder it's remembered in the
+# settings file and this is never consulted again.
+DEFAULT_IMAGE_DIR = ""
 
 DEFAULT_IMAGE_FILES = {
     "T1S1": "1Game-Team1-1.png",  # Team 1 serving, server 1

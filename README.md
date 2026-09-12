@@ -211,7 +211,7 @@ Your graphics folder and team names are stored in:
 
 ```json
 {
-  "image_dir": "D:\\Pickleball\\Materials",
+  "image_dir": "C:\\Users\\you\\Videos\\PickleballScoreboard\\images",
   "image_files": {
     "T1S1": "1Game-Team1-1.png",
     "T1S2": "1Game-Team1-2.png",
